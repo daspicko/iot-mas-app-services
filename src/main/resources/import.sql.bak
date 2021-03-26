@@ -1,0 +1,196 @@
+INSERT INTO address (id, street, post, city)
+VALUES
+   (1, 'Trg Stjepana Radića 6', 49000, 'Krapina'),
+   (2, 'Njegoševa 14', 42000, 'Varaždin'),
+   (3, 'Primorska 20', 42000, 'Varazdin'),
+   (4, 'Ivana Generalića 3', 48000, 'Koprivnica'),
+   (5, 'Petra Zrinskog 13', 43000, 'Bjelovar'),
+   (6, 'Pavlovec Zabočki 132', 49210, 'Zabok'),
+   (7, 'Dugoselska cesta 5', 10370, 'Rugvica'),
+   (8, 'Andrije Hebranga 9', 43000, 'Bjelovar'),
+   (9, 'Baštijanova 52a', 10000, 'Zagreb'),
+   (10, 'Trnjanska 45', 10000, 'Zagreb'),
+   (11, 'Buzinski prilaz 10', 10000, 'Zagreb'),
+   (12, 'Trg 22. lipnja 4f', 44000, 'Sisak'),
+   (13, 'Šulekova 12', 47000, 'Karlovac'),
+   (14, 'R. Lovrenca 44', 49000, 'Krapina'),
+   (15, 'Zagrebačka 215', 42000, 'Varaždin');
+
+INSERT INTO contact
+VALUES
+    (1, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (2, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (3, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (4, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (5, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (6, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (7, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (8, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (9, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (10, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (11, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (12, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (13, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (14, '072 726 786', 'iotasmas.servicecenter@gmail.com'),
+    (15, '072 726 786', 'iotasmas.servicecenter@gmail.com');
+
+INSERT INTO service_centre
+VALUES
+    (1, 'Servis Jurinjak', 1, 1),
+    (2, 'RTV Servis Keček', 2, 2),
+    (3, 'BI-EL', 3, 3),
+    (4, 'Servis Dolenec', 4, 4),
+    (5, 'Ježić Color servis d.o.o.', 5, 5),
+    (6, 'RISEL', 6, 6),
+    (7, 'MR servis', 7, 7),
+    (8, 'DOMI-ELEKTRONIK', 8, 8),
+    (9, 'Combis d.o.o.', 9, 9),
+    (10, 'Ecos Adria d.o.o.', 10, 10),
+    (11, 'King ICT d.o.o.', 11, 11),
+    (12, 'ETC-Sisak', 12, 12),
+    (13, 'Servis kućanskih aparata', 13, 13),
+    (14, 'Golub servis i trgovina', 14, 14),
+    (15, 'Potos d.o.o.', 15, 15);
+
+INSERT INTO device
+VALUES
+    (1, 'Klima uređaj', ''),
+    (2, 'Hladnjak', ''),
+    (3, 'TV', ''),
+    (4, 'Klima uređaj', ''),
+    (5, 'Hladnjak', ''),
+    (6, 'TV', ''),
+    (7, 'Klima uređaj', ''),
+    (8, 'Hladnjak', ''),
+    (9, 'TV', ''),
+    (10, 'Klima uređaj', ''),
+    (11, 'Hladnjak', ''),
+    (12, 'TV', ''),
+    (13, 'Klima uređaj', ''),
+    (14, 'Hladnjak', ''),
+    (15, 'TV', ''),
+    (16, 'Klima uređaj', ''),
+    (17, 'Hladnjak', ''),
+    (18, 'TV', ''),
+    (19, 'Klima uređaj', ''),
+    (20, 'Hladnjak', ''),
+    (21, 'TV', ''),
+    (22, 'Klima uređaj', ''),
+    (23, 'Hladnjak', ''),
+    (24, 'TV', ''),
+    (25, 'Klima uređaj', ''),
+    (26, 'Hladnjak', ''),
+    (27, 'TV', ''),
+    (28, 'Klima uređaj', ''),
+    (29, 'Hladnjak', ''),
+    (30, 'TV', ''),
+    (31, 'Klima uređaj', ''),
+    (32, 'Hladnjak', ''),
+    (33, 'TV', ''),
+    (34, 'Klima uređaj', ''),
+    (35, 'Hladnjak', ''),
+    (36, 'TV', ''),
+    (37, 'Klima uređaj', ''),
+    (38, 'Hladnjak', ''),
+    (39, 'TV', ''),
+    (40, 'Klima uređaj', ''),
+    (41, 'Hladnjak', ''),
+    (42, 'TV', ''),
+    (43, 'Klima uređaj', ''),
+    (44, 'Hladnjak', ''),
+    (45, 'TV', '');
+
+INSERT INTO services
+VALUES
+    (1, 1, 231, 123, 1),
+    (2, 2, 557, 249, 1),
+    (3, 3, 456, 183, 1),
+    (4, 4, 292, 150, 2),
+    (5, 5, 490, 274, 2),
+    (6, 6, 320, 299, 2),
+    (7, 7, 230, 121, 3),
+    (8, 8, 302, 204, 3),
+    (9, 9, 440, 294, 3),
+    (10, 10, 294, 174, 4),
+    (11, 11, 537, 239, 4),
+    (12, 12, 266, 118, 4),
+    (13, 13, 315, 126, 5),
+    (14, 14, 471, 215, 5),
+    (15, 15, 493, 329, 5),
+    (16, 16, 365, 122, 6),
+    (17, 17, 395, 289, 6),
+    (18, 18, 333, 374, 6),
+    (19, 19, 382, 158, 7),
+    (20, 20, 335, 268, 7),
+    (21, 21, 413, 325, 7),
+    (22, 22, 211, 148, 8),
+    (23, 23, 449, 203, 8),
+    (24, 24, 243, 397, 8),
+    (25, 25, 25, 250, 159, 9),
+    (26, 26, 485, 217, 9),
+    (27, 27, 474, 250, 9),
+    (28, 28, 243, 153, 10),
+    (29, 29, 310, 245, 10),
+    (30, 30, 303, 248, 10),
+    (31, 31, 338, 137, 11),
+    (32, 32, 559, 264, 11),
+    (33, 33, 205, 353, 11),
+    (34, 34, 205, 151, 12),
+    (35, 35, 598, 280, 12),
+    (36, 36, 381, 383, 12),
+    (37, 37, 290, 156, 13),
+    (38, 38, 395, 212, 13),
+    (39, 39, 226, 125, 13),
+    (39, 39, 335, 127, 13),
+    (40, 40, 399, 297, 14),
+    (41, 41, 410, 288, 14),
+    (42, 42, 363, 131, 14),
+    (43, 43, 336, 298, 15),
+    (44, 44, 376, 236, 15),
+    (45, 45, 247, 132, 15);
+
+INSERT INTO services VALUES (2, 2, 557, 249, 1);
+INSERT INTO services VALUES (3, 3, 456, 183, 1);
+INSERT INTO services VALUES (4, 4, 292, 150, 2);
+INSERT INTO services VALUES (5, 5, 490, 274, 2);
+INSERT INTO services VALUES (6, 6, 320, 299, 2);
+INSERT INTO services VALUES (7, 7, 230, 121, 3);
+INSERT INTO services VALUES (8, 8, 302, 204, 3);
+INSERT INTO services VALUES (9, 9, 440, 294, 3);
+INSERT INTO services VALUES (10, 10, 294, 174, 4);
+INSERT INTO services VALUES (11, 11, 537, 239, 4);
+INSERT INTO services VALUES (12, 12, 266, 118, 4);
+INSERT INTO services VALUES (13, 13, 315, 126, 5);
+INSERT INTO services VALUES (14, 14, 471, 215, 5);
+INSERT INTO services VALUES (15, 15, 493, 329, 5);
+INSERT INTO services VALUES (16, 16, 365, 122, 6);
+INSERT INTO services VALUES (17, 17, 395, 289, 6);
+INSERT INTO services VALUES (18, 18, 333, 374, 6);
+INSERT INTO services VALUES (19, 19, 382, 158, 7);
+INSERT INTO services VALUES (20, 20, 335, 268, 7);
+INSERT INTO services VALUES (21, 21, 413, 325, 7);
+INSERT INTO services VALUES (22, 22, 211, 148, 8);
+INSERT INTO services VALUES (23, 23, 449, 203, 8);
+INSERT INTO services VALUES (24, 24, 243, 397, 8);
+INSERT INTO services VALUES (25, 25, 250, 159, 9);
+INSERT INTO services VALUES (26, 26, 485, 217, 9);
+INSERT INTO services VALUES (27, 27, 474, 250, 9);
+INSERT INTO services VALUES (28, 28, 243, 153, 10);
+INSERT INTO services VALUES (29, 29, 310, 245, 10);
+INSERT INTO services VALUES (30, 30, 303, 248, 10);
+INSERT INTO services VALUES (31, 31, 338, 137, 11);
+INSERT INTO services VALUES (32, 32, 559, 264, 11);
+INSERT INTO services VALUES (33, 33, 205, 353, 11);
+INSERT INTO services VALUES (34, 34, 205, 151, 12);
+INSERT INTO services VALUES (35, 35, 598, 280, 12);
+INSERT INTO services VALUES (36, 36, 381, 383, 12);
+INSERT INTO services VALUES (37, 37, 290, 156, 13);
+INSERT INTO services VALUES (38, 38, 395, 212, 13);
+INSERT INTO services VALUES (39, 39, 226, 125, 13);
+INSERT INTO services VALUES (39, 39, 335, 127, 13);
+INSERT INTO services VALUES (40, 40, 399, 297, 14);
+INSERT INTO services VALUES (41, 41, 410, 288, 14);
+INSERT INTO services VALUES (42, 42, 363, 131, 14);
+INSERT INTO services VALUES (43, 43, 336, 298, 15);
+INSERT INTO services VALUES (44, 44, 376, 236, 15);
+INSERT INTO services VALUES (45, 45, 247, 132, 15);

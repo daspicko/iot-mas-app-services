@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Test",
+        "address": {
+            "street": "Ulica",
+            "postNumber": "10000",
+            "city": "Zagreb"
+        },
+        "contact": {
+            "phone": "04",
+            "email": "das@sda.hr"
+        },
+        "services": [
+            {
+                "device": {
+                    "name": "dsadsadsa",
+                    "description": "dsalkj"
+                },
+                "price": 1,
+                "time": 2
+            }
+        ]
+    }
+]
